@@ -24,6 +24,30 @@ eg:yarn add config
 
 for run the project
 
+create mysql table
+CREATE TABLE `testDb`.`users` (
+  `user_id` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `phone_number` VARCHAR(45) NULL ,
+  `introduction` TEXT NULL ,
+  `experience` TEXT NULL`,
+  `achievements` TEXT NULL`;
+  PRIMARY KEY (`user_id`));
+
+
+
+env data:
+
+DB_NAME="testDb"
+DB_USER="root"
+DB_PASSWORD="password"
+DB_HOST="localhost"
+DB_DIALECT="mysql"
+DB_PORT="3306"
+
+
 yarn dev
 or 
 npm run dev
