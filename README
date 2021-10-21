@@ -1,0 +1,35 @@
+OS: 0a3b4-25f2d
+node version: v12.13.1
+mysql version: 14.14
+node framework: express 
+mysql ORM: sequelize
+install yarn or npm
+install node modules
+"babel-eslint": "^10.1.0",
+"body-parser": "^1.19.0",
+"config": "^3.3.6",
+"cors": "^2.8.5",
+"dotenv": "^10.0.0",
+"eslint": "^7.32.0",
+"express": "^4.17.1",
+"mysql2": "^2.3.2",
+"nodemon": "^2.0.12",
+"sequelize": "^6.7.0"
+"@babel/cli": "^7.14.8",
+"@babel/core": "^7.15.0",
+"@babel/node": "^7.14.9",
+"@babel/preset-env": "^7.15.0"
+
+eg:yarn add config
+
+for run the project
+
+yarn dev
+or 
+npm run dev
+
+there is 3 apis
+ 
+1. list all user data
+2. get a specific user data
+3. add user

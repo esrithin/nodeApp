@@ -1,0 +1,5 @@
+{
+  "name": "development",
+  "port": 4000,
+  "connection_string": "mongodb://localhost:27017/my_database"
+}
