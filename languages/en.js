@@ -5,8 +5,8 @@ export const en = {
     FAILED: "failed",
   },
   MESSAGES: {
-    GUEST_EXISTS: "sorry, the guest  '#FIELD#' already exists.",
-    PAYLOAD_FIELD_MISSING: "Invalid request.",
-    DATA_FIELD_MISSING: "Invalid request.",
-  }
+    PAYLOAD_FIELD_MISSING:
+      "required payload field #FIELD# was missing. Please refer to the documentation for this function.",
+    DATA_FIELD_MISSING: "Please enter #FIELD#",
+  },
 };

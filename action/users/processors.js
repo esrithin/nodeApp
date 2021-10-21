@@ -1,5 +1,6 @@
 import { Error } from "../../helpers/errManagement";
 import { en } from "../../languages/en";
+import { vars } from "../../variables/vars";
 import { listAllUsers, getUserData } from "./getters";
 import { addUser } from "./setters";
 
