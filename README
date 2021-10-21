@@ -1,4 +1,4 @@
-OS: 0a3b4-25f2d
+OS: Ubuntu
 node version: v12.13.1
 mysql version: 14.14
 node framework: express 
